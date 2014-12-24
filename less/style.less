@@ -1,0 +1,36 @@
+@import "variables.less";
+@import "components/grid.less";
+
+body {
+  font-size: 0;
+  width: 960px;
+}
+
+.column {
+  display: inline-block;
+  width: 64;
+  height: 34px;
+  background: blue;
+}
+// .generate-columns(@n, @i: 1) when (@i =< @n) {
+// // Условие выполнения!
+// // @n — количество колонок
+// // @i — внутренний счетчик от 1 до @n
+// // Собственно, генерация
+//   .column {
+//     width: (100% / @n);
+//     display: inline-block;
+//     font-size: 0;
+//     background: blue;
+//     height: 20px;
+//     margin-right: 10px;
+
+//     &:last-child {
+//       margin: 0;
+//     }
+//   }
+// // Рекурсовный самовызов с цвеличенным на 1 счетчиком
+// .generate-columns(@n, (@i + 1));
+// }
+// // Вызываем примесь
+// .generate-columns(12);

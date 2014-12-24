@@ -1,0 +1,10 @@
+body {
+  font-size: 0;
+  width: 960px;
+}
+.column {
+  display: inline-block;
+  width: 64;
+  height: 34px;
+  background: blue;
+}
